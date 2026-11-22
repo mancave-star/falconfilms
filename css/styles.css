@@ -1,0 +1,56 @@
+/* Navbar Section */
+#navbar-top {
+
+}
+
+/* Header Section */
+#header {
+}
+#brand{
+  bottom: 100px;
+}
+.header-btns {
+  bottom: 50px !important;
+}
+div.carousel-caption {
+  bottom: 200px;
+}
+h1 {
+  font-size: 6.5rem !important;
+}
+h2 {
+  font-size: 3.5rem !important;
+}
+.logo-pic {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin-left: 350px;
+}
+
+/* Brand Section */
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.scroll-content {
+  display: flex;
+  animation: scrollImages 10s linear infinite;
+}
+
+.scroll-content img {
+  width: 200px; /* Adjust image size */
+  margin-right: 20px;
+}
+
+@keyframes scrollImages {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+/* About Section */
+#about {
+  text-align: center;
+}
